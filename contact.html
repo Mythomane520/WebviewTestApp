@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title>Contact | Star Sound & Security</Title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact information for  Star Sound & Security.">
+        <meta name="keywords" content="Automotive sound and security, Pretoria, Villieria, car sound, security, contact information for star sound and security.">
+        <meta name="revisit" content="30 days">
+        <meta http-equiv="refresh" content="3600">
+        <link href="CSS/style.css" rel="stylesheet">
+    </head>
+    <body class="enableBlur">
+        <button id="menuBtn">Menu</button>
+        <header>
+            <img src="Images/star sound title plain blue.png"alt="Star sound and security logo" id="logo">
+            <nav id="nav" >
+                <button id="closeBtn">X</button>
+                <br>
+                <a href="index.html" class="menuText">Home</a>
+                <a href="about.html" class="menuText">About us</a>
+                <a href="productsAndServices.html" class="menuText">Products and Services</a>
+                <a href="reviewsAndFeedback.html" class="menuText">Reviews and Feedback</a>
+                <a href="contact.html" class="menuText">Contact us</a>
+            </nav>
+        </header>
+        <div id="foreground">
+        <div id="contactInfo">
+        <h2 id="pageHeading">Contact</h2>
+        <div id="contact">
+            
+            <p><b>Phone:</b></p>
+            <p>012 333 4100</p>
+            <p><b>Email:</b></p>
+            <p id="emailAd">starsound@telkomsa.net</p>
+        </div>
+
+        <br>
+        <div id="contactForm">
+            <dialog open id="errorModal" class="modalClosed disableBlur noDis">
+                <button id="modalCloseBtn" class="er btn">X</button>
+           
+              </dialog>
+            <!-- form here -->
+            <form id="form" action="mailto:waldostrydom5@gmail.com" title="Starsound query" method="post" enctype="text/plain" >
+
+                <h2>Contact Us:</h2>
+                <br>
+                <label for="firstNameInput" class="formText">First Name:</label>
+                <input type="text" id="firstNameInput" name="firstNameInput" placeholder="First Name" required  class="inputBox formText"> 
+                <label for="lastNameInput" class="formText">Last Name:</label>
+                <input type="text" id="lastNameInput" name="lastNameInput" placeholder="Last Name" required class="inputBox formText">
+                <label for="email" class="formText">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required  class="inputBox formText">
+                
+                <label for="message" class="formText">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"  class="inputBox formText"></textarea>
+                <br>
+               
+                <button id="submitBtn" class="btn">submit</button>
+                <br>
+               
+            </form>
+       
+        </div>
+        <br>
+        </div>
+        </div>
+        <footer>
+
+            <div class="footerText">
+                <ul>
+                    <li id="homePageLink" ><h3><a href="/index.html"class="pageLink">Home</a></h3></li>
+                    <li ><a href="/index.html#quote" class="divLink">Get Quote</a></li>
+                    <li ><a href="/index.html#basicContact" class="divLink">Contact</a></li>
+                    <li ><a href="/index.html#buisinessHours" class="divLink">Buisiness Hours</a></li>
+                    <li ><a href="/index.html#location" class="divLink">Location</a></li>
+                </ul>
+                <ul>
+                    <li id="aboutPageLink"><h3 ><a href="/about.html" class="pageLink">About Us</a></h3></li>
+                    <li ><a href="/about.html#bio" class="divLink">Our Story</a></li>
+                </ul>
+                <ul>
+                    <li id="productPageLink" ><h3><a href="/productsAndServices.html" class="pageLink">Products and Services</a></h3></li>
+                    <li ><a href="/productsAndServices.html#productsDiv" class="divLink">Products</a></li>
+                    <li ><a href="/productsAndServices.html#servicesDiv" class="divLink">Services</a></li>
+                </ul>
+                <ul>
+                    <li id="reviewsPageLink" ><h3><a href="/reviewsAndFeedback.html" class="pageLink">Reviews and Feedback</a></h3></li>
+                    <li ><a href="/reviewsAndFeedback.html#reviewCarousel" class="divLink">Read Reviews</a></li>
+                    <li ><a href="/reviewsAndFeedback.html#leaveReview" class="divLink">Leave a Review</a></li>
+                </ul>
+                <ul>
+                    <li id="contactPageLink" ><h3><a href="/contact.html" class="pageLink">Contact</a></h3></li>
+                    <li ><a href="/contact.html#contact" class="divLink">Contact Us</a></li>
+                </ul>
+            </div>
+
+            
+            
+        </footer>
+        
+
+        <script src="JavaScript/contact.js"></script>
+    </body>
+</html>
